@@ -46,7 +46,7 @@
 }
 
 .waborg-head {
-  background: url('../images/waborg-head.jpg') 50% no-repeat #fffaee;
+  background: url('https://raw.githubusercontent.com/xdemetr/waborg-ebay/master/images/waborg-head.jpg') 50% no-repeat #fffaee;
   border-bottom: 2px solid #fcad1d;
   height: 280px;
   position: relative;
