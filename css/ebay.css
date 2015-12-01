@@ -1,0 +1,207 @@
+.waborg-wrap {
+  margin: 16px 0;
+  background: #fff;
+}
+
+.waborg-wrap p:not(:last-child) {
+  margin-bottom: 16px
+}
+
+.waborg-wrap p {
+  margin: 8px 0;
+  line-height: 1.2;
+}
+
+.waborg-wrap table {
+  width: 100%;
+  margin: 16px 0;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.waborg-wrap table td {
+  font-size: 1.1em;
+  line-height: 1;
+  padding: 8px;
+  border: 1px solid #eee;
+}
+
+.waborg-clear::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.waborg-title {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.waborg-sub-title {
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.waborg-head {
+  background: url('../images/waborg-head.jpg') 50% no-repeat #fffaee;
+  border-bottom: 2px solid #fcad1d;
+  height: 280px;
+  position: relative;
+}
+
+.waborg-head .waborg-title {
+  position: absolute;
+  bottom: 8px;
+  left: 32px;
+  font-size: 32px;
+}
+
+.waborg-head .contacts {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.waborg-head .contacts li {
+  margin: 8px 0;
+  list-style: none;
+  text-align: right;
+}
+
+.waborg-content .left {
+  float: left;
+  width: 65%;
+  box-sizing: border-box;
+  padding: 32px 16px 32px 32px;
+}
+
+.waborg-content .right {
+  float: right;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 32px 32px 32px 16px;
+}
+
+.waborg-h-gray {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 24px
+}
+
+.waborg-h-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.waborg-m-desc {
+  margin: 0;
+}
+
+.waborg-m-desc li {
+  list-style: none;
+  margin: 8px 0;
+  line-height: 1;
+  font-size: 1.2em;
+}
+
+.waborg-m-desc li::before {
+  content: '\2014';
+  margin-right: 4px;
+}
+
+.waborg-h-orange {
+  margin: 24px 0;
+  font-size: 1.2em;
+  line-height: 1;
+  background: #fffaee;
+  padding: 16px;
+  border-bottom: 1px solid #f5eacf;
+}
+
+.waborg-h-orange.inline {
+  display: inline-block;
+}
+
+.waborg-button {
+  background: #fcad1d;
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #000!important;
+  padding: 0 24px;
+  text-shadow: 0 1px #fff;
+  box-shadow: 0 2px #b87a09;
+}
+
+.waborg-button:hover {
+  text-decoration: none;
+  background: #f8ca78;
+}
+
+.waborg-desc-italic {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.waburg-d-small {
+  margin: 16px 0;
+  font-size: 1.2em;
+  padding: 16px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.waborg-contacts-inline {
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.waborg-contacts-inline li {
+  font-size: inherit;
+}
+
+.waborg-img-small {
+  text-align: center;
+  font-size: 0;
+}
+
+.waborg-img-small div {
+  overflow: hidden;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 0;
+  margin: 0 4px;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+.waborg-img-small div img {
+  width: 160px;
+  height: 86px;
+}
+
+.waborg-gallery {
+  line-height: 0;
+  font-size: 0;
+  padding: 16px 0;
+  border-top: 3px double #ddd;
+  border-bottom: 3px double #ddd;
+}
+
+.waborg-gallery img {
+  max-width: 100%;
+  width: 50%;
+}
+
+.waborg-footer {
+  padding: 32px;
+  font-size: 1.2em;
+}

@@ -1,0 +1,25 @@
+OX_3248098264({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.ebayde.servedbyopenx.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://eu-u.openx.net/w/1.0/pd?plm=5&ph=4972d70c-ed8d-4718-876a-138b185fccf5",
+    "adunits" : [
+      {
+        "auid":"537965398",
+        "chain":[
+          {
+            "is_fallback":1,
+            "ad_id":"0",
+            "width":"728",
+            "height":"90",
+            "html":"<!-- eBay DE Passback/VIP_728x90_BTF -->\n<iframe src=\"http://ad.doubleclick.net/N3837/adi/ebay.de.passback/VIP_728x90_BTF;sz=728x90;ord=1448908036?\" width=\"728\" height=\"90\" marginwidth=\"0\" marginheight=\"0\" hspace=\"0\" vspace=\"0\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+            "target":"_blank",
+            "ts":"1fHJpZD1jOThhOWNlNC1kNmZlLTRhNmUtYWUxYy0xNjczOGY2MmJhOGZ8cnQ9MTQ0ODkwODAzNnxhdWlkPTUzNzk2NTM5OHxhdW09RE1JRC5XRUJ8c2lkPTUzNzE5MjMyMnxwdWI9NTM3MTAxNzcyfHBjPUVVUnxyYWlkPWNhNmQ0NmZjLTdiNmQtNDE4Ny05NTMwLTc4YWRhMmU4MmE4Y3x1cj0wSDRUSXpJUlZ5",
+            "type":"html",
+            "ad_url":"<!-- eBay DE Passback/VIP_728x90_BTF -->\n<iframe src=\"http://ad.doubleclick.net/N3837/adi/ebay.de.passback/VIP_728x90_BTF;sz=728x90;ord=1448908036?\" width=\"728\" height=\"90\" marginwidth=\"0\" marginheight=\"0\" hspace=\"0\" vspace=\"0\" frameborder=\"0\" scrolling=\"no\"></iframe>"
+          }
+        ]
+      }
+    ]
+  }
+});
